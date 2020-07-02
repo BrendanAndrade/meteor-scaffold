@@ -1,0 +1,7 @@
+<template name = "Public_page">
+  {{#if Template.subscriptionsReady}}
+    {{> Template.dynamic template=main}}
+  {{else}}
+    {{> App_loading}}
+  {{/if}}
+</template>
