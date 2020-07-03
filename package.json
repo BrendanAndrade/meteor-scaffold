@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run --settings local-settings.json",
+    "start-prod": "NODE_ENV=production meteor run --production --settings local-settings.json",
     "debug": "meteor run --inspect --settings local-settings.json"
   },
   "dependencies": {
